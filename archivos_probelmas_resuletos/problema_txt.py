@@ -6,3 +6,4 @@ with open("nombres_apellidos.txt","w", encoding="UTF=8") as arch:
     for n, a in zip(nombres, apellidos):
         arch.write(f"Nombre: {n}\nApellido: {a}\n----------\n")
     arch.write("Gracias por usar nuestro servicio de escribir txt")
+    
